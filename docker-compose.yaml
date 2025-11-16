@@ -1,9 +1,27 @@
+version: "3.9"
 services:
-  jekyll-site:
-    image: jekyll-site
-    build: .
-    volumes: [ .:/usr/src/app ]
-    ports: [ 4000:4000 ]
-    user: 1000:1000
-    environment: [ JEKYLL_ENV=docker ]
-    command: jekyll serve -H 0.0.0.0 -w --config _config.yml,_config_docker.yml
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # If you created a non-root user in the Dockerfile (e.g., vscode),
+    # you can uncomment the next line to avoid root-owned files on the host:
+    # user: "1000:1000"
+    working_dir: /workspaces/site
+    command: >
+      bash -lc
+      "bundle exec jekyll serve
+       --host 0.0.0.0
+       --watch
+       --livereload
+       --config _config.yml,_config_docker.yml"
+    ports:
+      - "4000:4000"     # Jekyll site
+      - "35729:35729"   # LiveReload
+    environment:
+      JEKYLL_ENV: development
+    volumes:
+      - .:/workspaces/site:delegated
+      - bundle_cache:/usr/local/bundle
+volumes:
+  bundle_cache:
