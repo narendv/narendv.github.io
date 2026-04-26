@@ -1,9 +1,11 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "Bio"
+permalink: /bio/
 author_profile: true
 redirect_from:
+  - /cv/
+  - /cv
   - /resume
 ---
 
