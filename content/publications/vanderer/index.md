@@ -5,12 +5,12 @@ authors:
   - Raktim Gautam Goswami
   - Prashanth Krishnamurthy
   - Farshad Khorrami
-date: '2026-06-01T00:00:00Z'
-publishDate: '2026-06-01T00:00:00Z'
+date: '2026-06-16T00:00:00Z'
+publishDate: '2026-06-16T00:00:00Z'
 publication_types: ['article']
 publication:
-  name: 'Preprint, under review'
-  short_name: 'Preprint'
+  name: 'arXiv preprint arXiv:2606.14879 (in review, Robotics and Autonomous Systems)'
+  short_name: 'arXiv · In review, RAS'
 abstract: >-
   Mobile agents require efficient exploration strategies to map unseen environments and
   autonomously plan tasks. Traditional methods rely on generating occupancy maps and optimizing
@@ -35,6 +35,12 @@ tags:
   - Diffusion Policy
   - World Models
 featured: true
+hugoblox:
+  ids:
+    arxiv: '2606.14879'
+links:
+  - type: pdf
+    url: https://arxiv.org/pdf/2606.14879
 image:
   caption: 'VANDERER framework and long-horizon exploration compared with NoMaD.'
   preview_only: false

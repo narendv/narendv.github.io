@@ -8,9 +8,9 @@ name:
   pronouns: he/him
 role: Ph.D. Candidate, Electrical & Computer Engineering
 bio: |
-  I build robots that can find their way through places they have never seen,
-  using language models, world models and diffusion policies, and I deploy them
-  on real hardware.
+  Ph.D. candidate building robot planning and navigation systems with foundation models
+  (LLMs, VLMs, and World Models) for autonomous vehicles and real-world robots like
+  quadrupeds and manipulators.
 
 affiliations:
   - name: NYU Tandon School of Engineering
@@ -56,6 +56,19 @@ experience:
       Map-free exploration with curiosity-guided diffusion policies and navigation world models;
       real-time LLM-driven object navigation on a Unitree Go2 quadruped; LLM task planning
       with closed-loop human–environment–robot feedback on a Franka FR3 manipulator.
+  - role: Mitacs Globalink Research Intern
+    org: University of Waterloo
+    start: 2022-05-01
+    end: 2022-08-31
+    summary: |
+      Funded research on indoor multi-sensor perception.
+  - role: Software Intern
+    org: Cron AI
+    start: 2021-06-01
+    end: 2021-08-31
+    summary: |
+      Preprocessed large-scale point cloud datasets (KITTI, Audi A2D2) into 2D depth and reflectance
+      feature maps and trained a lightweight fully convolutional autoencoder for point cloud denoising.
 
 skills:
   - name: Robotics
@@ -82,3 +95,10 @@ skills:
         level: 4
       - label: Vicon, Jetson Orin
         level: 4
+
+awards:
+  - title: Mitacs Globalink Research Internship
+    awarder: Mitacs / University of Waterloo
+    date: "2022-05-01"
+    summary: Funded research internship on indoor multi-sensor perception.
+    icon: hero/trophy

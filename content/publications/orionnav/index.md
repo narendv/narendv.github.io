@@ -1,19 +1,23 @@
 ---
-title: 'OrionNav: Online Planning for Robot Autonomy with Context-Aware LLM and Open-Vocabulary Semantic Scene Graphs'
+title: 'Open-Architecture End-to-End System for Real-World Autonomous Robot Navigation (OrionNav)'
 authors:
   - me
-  - Raktim Gautam Goswami
   - Ali Umut Kaypak
+  - Raktim Gautam Goswami
   - Naman Patel
   - Rooholla Khorrambakht
   - Prashanth Krishnamurthy
   - Farshad Khorrami
+author_notes:
+  - 'Equal contribution'
+  - 'Equal contribution'
+  - 'Equal contribution'
 date: '2024-10-08T00:00:00Z'
 publishDate: '2024-10-08T00:00:00Z'
 publication_types: ['article']
 publication:
-  name: 'arXiv preprint arXiv:2410.06239'
-  short_name: 'arXiv'
+  name: 'arXiv preprint arXiv:2410.06239 (in review, IEEE Robotics and Automation Letters)'
+  short_name: 'arXiv · In review, RA-L'
 abstract: >-
   Enabling robots to autonomously navigate unknown, complex, and dynamic real-world environments
   presents several challenges, including imperfect perception, partial observability, localization

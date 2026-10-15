@@ -46,7 +46,7 @@ sections:
     content:
       title: 'News'
       text: |-
-        - **Jun 2026** — Submitted **VANDERER**, map-free exploration with visual-curiosity-guided diffusion policies.
+        - **Jun 2026** — **VANDERER** is on [arXiv](https://arxiv.org/abs/2606.14879): map-free exploration with visual-curiosity-guided diffusion policies.
         - **May 2025** — **MultiTalk** published at **ICRA 2025** in Atlanta.
         - **Oct 2024** — **OrionNav** released on [arXiv](https://arxiv.org/abs/2410.06239): real-time LLM-driven navigation on a quadruped.
         - **Sep 2023** — Started my Ph.D. at NYU Tandon.
