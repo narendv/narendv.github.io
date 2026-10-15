@@ -1,0 +1,84 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Naren Devarakonda
+  given: Venkata Naren
+  family: Devarakonda
+  pronouns: he/him
+role: Ph.D. Candidate, Electrical & Computer Engineering
+bio: |
+  I build robots that can find their way through places they have never seen,
+  using language models, world models and diffusion policies, and I deploy them
+  on real hardware.
+
+affiliations:
+  - name: NYU Tandon School of Engineering
+    url: https://engineering.nyu.edu/
+
+links:
+  - icon: at-symbol
+    url: mailto:d.naren@nyu.edu
+    label: E-mail Me
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=eCSxhKIAAAAJ
+  - icon: brands/github
+    url: https://github.com/narendv
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/naren-devarakonda-aba5bb18a/
+  - icon: academicons/orcid
+    url: https://orcid.org/0009-0003-0550-2608
+
+interests:
+  - Robot navigation & exploration
+  - World models & diffusion policies
+  - LLM/VLM-based task planning
+  - Real-world deployment on legged robots
+
+education:
+  - degree: Ph.D. Electrical & Computer Engineering
+    institution: NYU Tandon School of Engineering
+    year: 2023 – Present
+    start: 2023-09-01
+    summary: |
+      Advised by Prof. Farshad Khorrami, Control/Robotics Research Laboratory (CRRL).
+  - degree: B.Tech. Mechanical Eng. + M.Tech. Robotics
+    institution: Indian Institute of Technology Madras (Dual Degree)
+    year: 2018 – 2023
+    start: 2018-08-01
+    end: 2023-06-30
+
+experience:
+  - role: Graduate Researcher
+    org: Control/Robotics Research Laboratory (CRRL), NYU Tandon
+    start: 2023-09-01
+    summary: |
+      Map-free exploration with curiosity-guided diffusion policies and navigation world models;
+      real-time LLM-driven object navigation on a Unitree Go2 quadruped; LLM task planning
+      with closed-loop human–environment–robot feedback on a Franka FR3 manipulator.
+
+skills:
+  - name: Robotics
+    items:
+      - label: ROS / ROS 2
+        level: 5
+      - label: Isaac Sim / Isaac Lab
+        level: 4
+      - label: MuJoCo
+        level: 4
+  - name: ML / AI
+    items:
+      - label: LLMs & VLMs
+        level: 5
+      - label: Diffusion models
+        level: 5
+      - label: World modelling
+        level: 4
+  - name: Hardware
+    items:
+      - label: Unitree Go2 & G1
+        level: 5
+      - label: Franka Emika FR3
+        level: 4
+      - label: Vicon, Jetson Orin
+        level: 4
