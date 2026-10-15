@@ -9,9 +9,8 @@ name:
 role: Ph.D. Candidate, Electrical & Computer Engineering
 bio: |
   Ph.D. candidate building robot planning and navigation systems with foundation models
-  (LLMs, VLMs, and World Models) for autonomous vehicles and real-world robots like
+  like LLMs, VLMs, and World Models for autonomous vehicles and real-world robots like
   quadrupeds and manipulators.
-
 affiliations:
   - name: NYU Tandon School of Engineering
     url: https://engineering.nyu.edu/
