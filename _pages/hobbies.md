@@ -3,7 +3,7 @@ permalink: /hobbies/
 title: "Hobbies"
 author_profile: true
 redirect_from:
-	- /other-interests/
+	- /hobbies/
 ---
 
 Outside of robotics research, I spend a lot of time on music and personal learning.
