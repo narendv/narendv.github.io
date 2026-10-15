@@ -8,9 +8,9 @@ name:
   pronouns: he/him
 role: Ph.D. Candidate, Electrical & Computer Engineering
 bio: |
-  I build robots that can find their way through places they have never seen,
-  using language models, world models and diffusion policies, and I deploy them
-  on real hardware.
+  Ph.D. candidate building robot planning and navigation systems with foundation models
+  like LLMs, VLMs, and World Models for autonomous vehicles and real-world robots like
+  quadrupeds and manipulators.
 
 affiliations:
   - name: NYU Tandon School of Engineering
